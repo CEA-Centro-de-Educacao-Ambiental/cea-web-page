@@ -1,6 +1,19 @@
+* {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 500;
+}
+
 header {
     display: block;
-    /* position: absolute; */
     width: 100%;
     height: 60px;
     left: 0px;
@@ -9,25 +22,17 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-body {
-    margin: 0;
+.HeaderLinks {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
-a {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+.HeaderLinks a {
     line-height: 21px;
     color: #FFFFFF;
     text-transform: uppercase;
     text-decoration: none;
-}
-
-.HeaderLinks {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 115px;
 }
 
 .Logo {
@@ -46,26 +51,53 @@ iframe {
     margin-top: 20px;
 }
 
-h1 {
+.SessionTitle {
+    display: block;
+    margin-top: 3%;
     text-transform: uppercase;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
     font-size: 36px;
-    line-height: 43px;
     text-align: center;
     color: #417BB5;
+    margin-bottom: 3%;
 }
 
 .SomeText {
-    font-family: Rubik;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: #4B4B4B;
     display: block;
     width: 75%;
+    text-align: center;
+    color: #4B4B4B;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 2%;
+}
+
+.ImageGroup {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.ImageGroup img {
+    width: 340px;
+    height: 220px;
+}
+
+.Projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 86px;
+    color: #4B4B4B
+}
+
+.Projeto img {
+    width: 460px;
+    height: 297px;
+    margin-right: 120px;
+}
+
+.Projeto div {
+    width: 460px;
+    height: 297px;
 }
