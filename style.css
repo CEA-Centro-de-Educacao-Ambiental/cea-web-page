@@ -53,7 +53,7 @@ iframe {
 
 .SessionTitle {
     display: block;
-    margin-top: 3%;
+    margin-top: 60px;
     text-transform: uppercase;
     font-size: 36px;
     text-align: center;
@@ -100,4 +100,22 @@ iframe {
 .Projeto div {
     width: 460px;
     height: 297px;
+}
+
+.Iniciativas {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.Iniciativas div {
+    color: #4B4B4B;
+    width: 295px;
+    text-align: center;
+}
+
+.Icon {
+    width: 50px;
+    height: 50px;
 }
