@@ -10,3 +10,6 @@ O CEA está localizado na Vila Pinto, Bairro Bom Jesus, zona Leste de Porto Aleg
 Site estático de fácil manutenção.
 - HTML
 - CSS
+
+## Integração Contínua 
+- Travis CI
