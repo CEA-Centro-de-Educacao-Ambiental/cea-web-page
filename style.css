@@ -105,6 +105,34 @@ header {
     height: 220px;
 }
 
+.NossosParceiros {
+    background-color: #417BB5;
+    height: 213px;
+}
+
+.LogosParceiros {
+    height: inherit;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.LogosParceiros picture {
+    background-color: #FFFFFF;
+    width: 172px;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+picture img {
+    max-height: 90px;
+    max-width: 160px;
+}
+
 .Projeto {
     display: flex;
     justify-content: center;

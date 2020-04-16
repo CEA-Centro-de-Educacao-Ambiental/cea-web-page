@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <head>
@@ -9,15 +10,13 @@
     <meta name="description" content="Site do CEA - Bom Jesus">
 </head>
 
-
-
 <body>
     <header>
         <div class="HeaderLinks">
             <a href="#conheca">Conheça o CEA</a>
             <a href="#parceiros">Nossos parceiros</a>
-            <a href="#projetos">Nossos projetos</a>
             <a href="#iniciativas">Nossas iniciativas</a>
+            <a href="#projetos">Nossos projetos</a>
             <a href="#contato">Contato</a>
         </div>
     </header>
@@ -30,7 +29,7 @@
         </a>
     </section>
 
-    <div id="conheca">
+    <section id="conheca">
         <label class="SessionTitle">Conheça o CEA</label>
         <p class="Text">
             Nossa missão é gerar e promover oportunidades de crescimento pessoal e qualificação profissional através da conscientização ambiental e do desenvolvimento social para melhorar a qualidade de vida de nossa comunidade.
@@ -41,13 +40,54 @@
             <img src="assets/conheca-o-cea/foto2.jpeg">
             <img src="assets/conheca-o-cea/foto3.jpg">
         </div>
-    </div>
+    </section>
 
-
-    <div id="parceiros">
+    <section id="parceiros">
         <label class="SessionTitle">Nossos Parceiros</label>
-    </div>
+        <div class="NossosParceiros">
+            <div class="LogosParceiros">
+                <picture>
+                    <img src="./assets/parceiros/instituto-lojas-renner.png">
+                </picture>
+                <picture>
+                    <img src="./assets/parceiros/thoughtworks.png">
+                </picture>
+                <picture>
+                    <img src="./assets/parceiros/prefeitura-poa.png">
+                </picture>
+                <picture>
+                    <img src="./assets/parceiros/fasc.jpg">
+                </picture>
+                <picture>
+                    <img src="./assets/parceiros/smed.jpg">
+                </picture>
+                <picture>
+                    <img src="./assets/parceiros/dmlu.jpg">
+                </picture>
+            </div>
+        </div>
+    </section>
 
+    <section id="iniciativas">
+        <label class="SessionTitle">Nossas Iniciativas</label>
+        <div class="Iniciativas">
+            <div>
+                <img class="Icon" src="./assets/icons/reciclagem.svg">
+                <h2>CTVP</h2>
+                <p>CTVP Segmento considerado o carro chefe do CEA. Foi fundado em 1996 por um grupo de mulheres da comunidade indignadas com a situação de vulnerabilidade em que estavam submetidas.</p>
+            </div>
+            <div>
+                <img class="Icon" src="./assets/icons/centro-cultural.svg">
+                <h2>Centro Cultural</h2>
+                <p>CTVP Segmento considerado o carro chefe do CEA. Foi fundado em 1996 por um grupo de mulheres da comunidade indignadas com a situação de vulnerabilidade em que estavam submetidas.</p>
+            </div>
+            <div>
+                <img class="Icon" src="./assets/icons/blocos-abc.svg">
+                <h2>Vovó Belinha</h2>
+                <p>CTVP Segmento considerado o carro chefe do CEA. Foi fundado em 1996 por um grupo de mulheres da comunidade indignadas com a situação de vulnerabilidade em que estavam submetidas.</p>
+            </div>
+        </div>
+    </section>
 
     <section id="projetos">
         <label class="SessionTitle">Nossos Projetos</label>
@@ -75,29 +115,12 @@
         </section>
     </section>
 
-    <div id="iniciativas">
-        <label class="SessionTitle">Nossas Iniciativas</label>
-        <section class="Iniciativas">
-            <div>
-                <img class="Icon" src="./assets/icons/reciclagem.svg">
-                <h2>CTVP</h2>
-                <p>CTVP Segmento considerado o carro chefe do CEA. Foi fundado em 1996 por um grupo de mulheres da comunidade indignadas com a situação de vulnerabilidade em que estavam submetidas.</p>
-            </div>
-            <div>
-                <img class="Icon" src="./assets/icons/centro-cultural.svg">
-                <h2>Centro Cultural</h2>
-                <p>CTVP Segmento considerado o carro chefe do CEA. Foi fundado em 1996 por um grupo de mulheres da comunidade indignadas com a situação de vulnerabilidade em que estavam submetidas.</p>
-            </div>
-            <div>
-                <img class="Icon" src="./assets/icons/blocos-abc.svg">
-                <h2>Vovó Belinha</h2>
-                <p>CTVP Segmento considerado o carro chefe do CEA. Foi fundado em 1996 por um grupo de mulheres da comunidade indignadas com a situação de vulnerabilidade em que estavam submetidas.</p>
-            </div>
-        </section>
-    </div>
-    <div id="contato">
+
+    <section id="contato">
         <label class="SessionTitle">Quer entrar em contato conosco?</label>
-    </div>
+    </section>
+
+    <script src="/path/to/flickity.pkgd.min.js"></script>
 
 </body>
 
