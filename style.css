@@ -69,7 +69,7 @@ header {
     box-shadow: 5px 5px 8px grey;
 }
 
-.SessionTitle {
+.SectionTitle {
     display: block;
     margin-top: 60px;
     text-transform: uppercase;
@@ -155,14 +155,23 @@ picture img {
 .Iniciativas {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-left: 150px;
     margin-right: 150px;
 }
 
 .Iniciativas div {
     color: #4B4B4B;
-    width: 295px;
+    width: 380px;
     text-align: center;
+}
+
+.Iniciativas p {
+    text-align: justify;
+}
+
+.FotosIniciativas {
+    width: 200px;
 }
 
 .Icon {
