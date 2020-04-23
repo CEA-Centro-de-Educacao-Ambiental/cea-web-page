@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+<link rel="stylesheet" href="./flickity/flickity.css" media="screen">
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <head>
@@ -17,6 +17,7 @@
             <a href="#parceiros">Nossos parceiros</a>
             <a href="#iniciativas">Nossas iniciativas</a>
             <a href="#projetos">Nossos projetos</a>
+            <a href="#fundadora">A Fundadora</a>
             <a href="#contato">Contato</a>
         </div>
     </header>
@@ -45,7 +46,8 @@
     <section id="parceiros">
         <label class="SectionTitle">Nossos Parceiros</label>
         <div class="NossosParceiros">
-            <div class="LogosParceiros">
+            <div class="LogosParceiros" data-flickity='{ "cellAlign": "left", "contain": true, 
+                          "groupCells": true, "setGallerySize": false, "resize": false, "pageDots": false}'>
                 <picture>
                     <img src="./assets/parceiros/instituto-lojas-renner.png">
                 </picture>
@@ -66,13 +68,21 @@
                 </picture>
             </div>
         </div>
+
     </section>
+
 
     <section id="iniciativas">
         <label class="SectionTitle">Nossas Iniciativas</label>
         <div class="Iniciativas">
-            <div>
-                <img class="FotosIniciativas" src="./assets/iniciativas/logoCtvp.png">
+            <div class="ItemIniciativa">
+                <div class="FotosIniciativas" data-flickity='{  "contain": true, 
+                 "resize": false, "pageDots": false}'>
+                    <img src="./assets/iniciativas/logoCtvp.png">
+                    <img src="./assets/iniciativas/pic1Ctvp.png">
+                    <img src="./assets/iniciativas/pic2Ctvp.png">
+                    <img src="./assets/iniciativas/pic3Ctvp.png">
+                </div>
                 <p> O Centro de Triagem da Vila Pinto – CTVP, é o segmento considerado o carro chefe do Centro de Educação Ambiental - CEA.</p>
                 <p> “Tudo começou com o lixo!” relata Marli Medeiros, Fundadora da Instituição. Foi fundado em 1996 por um grupo de mulheres da comunidade indignadas com a situação de vulnerabilidade em que estavam submetidas. Decidiram transformar a condição
                     de pobreza e violência e buscar alternativas que lhes garantisse independência financeira e liberdade moral.</p>
@@ -80,15 +90,27 @@
                     da dignidade, da autoestima e da cidadania. Tinham como objetivo, a capacitação, a organização, a luta pelas liberdades individuais e coletivas, a justiça social, a defesa e promoção dos direitos fundamentais do ser humano, a melhoria
                     da qualidade de vida e a preservação do meio ambiente.</p>
             </div>
-            <div>
-                <img class="FotosIniciativas" src="./assets/iniciativas/logoCemme2.png">
+            <div class="ItemIniciativa">
+                <div class="FotosIniciativas" data-flickity='{  "contain": true, 
+                "resize": false, "pageDots": false}'>
+                    <img src="./assets/iniciativas/logoCemme.png">
+                    <img src="./assets/iniciativas/pic1Cemme.png">
+                    <img src="./assets/iniciativas/pic2Cemme.png">
+                    <img src="./assets/iniciativas/pic3Cemme.png">
+                </div>
                 <p>O Centro Cultural Marli Medeiros - CEMME foi criado a partir da necessidade apontada pelas recicladoras associadas do Centro de Triagem que ficavam preocupadas enquanto trabalhavam que seus filhos sozinhos, ficavam expostos aos riscos
                     que a “rua” oferecia. O centro cultural desenvolve atividades e serviços nas áreas da educação, cultura, lazer, esporte, qualificação profissional, educação ambiental, assistência social, jurídica, psicológica, orientações e demais,
                     a crianças, adolescentes, jovens, adultos e idosos, moradores da comunidade.
                 </p>
             </div>
-            <div>
-                <img class="FotosIniciativas" src="./assets/iniciativas/logoVovóBelinha.png">
+            <div class="ItemIniciativa">
+                <div class="FotosIniciativas" data-flickity='{  "contain": true, 
+                "resize": false, "pageDots": false}'>
+                    <img src="./assets/iniciativas/logoVovóBelinha.png">
+                    <img src="./assets/iniciativas/pic1VovóBelinha.png">
+                    <img src="./assets/iniciativas/pic2VovóBelinha.png">
+                    <img src="./assets/iniciativas/pic3VovóBelinha.png">
+                </div>
                 <p>Com os segmentos CTVP e CEMME já conquistados, favorecendo um público de 06 à 90 anos, surge a necessidade de atendimento às crianças menores de 6 anos. Através do esforço da coordenação do CEA e da Secretaria Municipal de Educação Infantil
                     de Porto Alegre, em 2007 articulou-se uma parceria com a Empresa Capa Engenharia que construiu “o sonho”. Desde 2008 a escola é uma realidade. Atende 120 crianças de 0 a 5 anos e 11 meses, em um ambiente encantador e aconchegante.
                     Tem como principal objetivo proporcionar as crianças um espaço de qualidade, que incentive sua criatividade, proporcione momentos de estimulação cognitiva, motora, sócio afetiva, enfim todas as áreas importantes para o desenvolvimento
@@ -101,7 +123,7 @@
     <section id="projetos">
         <label class="SectionTitle">Nossos Projetos</label>
         <section class="Projeto">
-            <img src="assets/pic1.jpeg">
+            <img src="assets/conheca-o-cea/foto1.jpeg">
             <div>
                 <h2>
                     PROJECT TITLE
@@ -124,10 +146,6 @@
         </section>
     </section>
 
-    <iframe src="./carousel.html" seamless></iframe>
-
-
-
     <section id="fundadora">
         <label class="SectionTitle"> Marli Medeiros - A Fundadora</label>
         <p>
@@ -144,7 +162,8 @@
     <section id="contato">
         <label class="SectionTitle">Quer entrar em contato conosco?</label>
     </section>
-
 </body>
+
+<script src="./flickity/flickity.pkgd.js"></script>
 
 </html>
