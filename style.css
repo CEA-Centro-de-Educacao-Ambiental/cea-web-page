@@ -115,6 +115,7 @@ header {
     height: 180px;
     width: 80%;
     margin: auto;
+    max-width: 1300px;
 }
 
 .LogosParceiros picture {
@@ -155,10 +156,13 @@ picture img {
     color: #4B4B4B
 }
 
-.Projeto img {
+.FotosProjetos {
+    margin-right: 120px;
+}
+
+.FotosProjetos img {
     width: 460px;
     height: 297px;
-    margin-right: 120px;
 }
 
 .Projeto div {
@@ -189,13 +193,19 @@ picture img {
 }
 
 .FotosIniciativas {
-    width: 200px;
-    height: 200px
+    width: 300px;
+    height: 200px;
 }
 
 .FotosIniciativas img {
-    /* min-width: 200px; */
-    max-height: 200px;
+    min-width: 200px;
+    max-width: 400px;
+    height: 200px;
+}
+
+.FotosIniciativas :first-of-type img {
+    padding-right: 80px;
+    padding-left: 80px;
 }
 
 .ItemIniciativa picture {
@@ -204,12 +214,18 @@ picture img {
     height: 200px;
 }
 
-.Icon {
-    width: 50px;
-    height: 50px;
-}
-
 .SmallIcon {
     width: 33px;
     height: 33px;
+}
+
+.Fundadora {
+    margin: auto;
+    width: 70%;
+}
+
+.Fundadora img {
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
 }
