@@ -3,7 +3,6 @@
     font-size: 16px;
     font-weight: 300;
     background: #F5F5F5;
-    ;
 }
 
 body {
@@ -60,7 +59,7 @@ header {
 
 .CoverImg a {
     color: #417BB5;
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
     border-radius: 4px;
     width: 244px;
     height: 52px;
@@ -142,6 +141,7 @@ header {
 picture img {
     max-height: 140px;
     max-width: 160px;
+    background-color: #FFFFFF;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -173,6 +173,7 @@ picture img {
 .FotosProjetos img {
     width: 460px;
     height: 297px;
+    margin-top: 18px;
 }
 
 .Projeto div {
@@ -229,6 +230,11 @@ picture img {
     height: 33px;
 }
 
+.Icon {
+    width: 70px;
+    height: 70px;
+}
+
 .Fundadora {
     margin: auto;
     width: 70%;
@@ -253,4 +259,24 @@ picture img {
 
 .Premios ul {
     list-style-type: none;
+}
+
+.InfosContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.InfosContato :first-child {
+    font-weight: bold;
+}
+
+.RedesSociais {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-bottom: 60px;
 }
