@@ -23,14 +23,14 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.HeaderLinks {
+.header-links {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
     background-color: #417BB5;
 }
 
-.HeaderLinks a {
+.header-links a {
     line-height: 21px;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ header {
     background-color: #417BB5;
 }
 
-.Logo {
+.logo {
     width: 144px;
     height: 144px;
     display: block;
@@ -47,7 +47,7 @@ header {
     margin-top: 31px;
 }
 
-.CoverImg {
+.cover-img {
     background-image: url("assets/header.jpeg");
     display: flex;
     background-size: 100%;
@@ -57,7 +57,7 @@ header {
     justify-content: flex-end;
 }
 
-.CoverImg a {
+.cover-img a {
     color: #417BB5;
     background-color: #F5F5F5;
     border-radius: 4px;
@@ -72,7 +72,7 @@ header {
     box-shadow: 5px 5px 8px grey;
 }
 
-.SectionTitle {
+.section-title {
     display: block;
     margin-top: 60px;
     text-transform: uppercase;
@@ -82,7 +82,7 @@ header {
     margin-bottom: 3%;
 }
 
-.Text {
+.text {
     display: block;
     width: 75%;
     text-align: center;
@@ -93,7 +93,7 @@ header {
     font-size: 18px;
 }
 
-.ImageGroup {
+.image-group {
     width: 80%;
     margin: auto;
     margin-bottom: 5%;
@@ -103,18 +103,18 @@ header {
     flex-wrap: wrap;
 }
 
-.ImageGroup img {
+.image-group img {
     width: 340px;
     height: 220px;
 }
 
-.NossosParceiros {
+.nossos-parceiros {
     background-color: #417BB5;
     height: 250px;
     display: flex;
 }
 
-.LogosParceiros {
+.logos-parceiros {
     height: 180px;
     width: 80%;
     margin: auto;
@@ -122,7 +122,7 @@ header {
     background-color: #417BB5;
 }
 
-.LogosParceiros picture {
+.logos-parceiros picture {
     background-color: #FFFFFF;
     display: flex;
     width: 220px;
@@ -134,7 +134,7 @@ header {
     align-items: center;
 }
 
-.LogosParceiros div div {
+.logos-parceiros div div {
     background-color: #417BB5;
 }
 
@@ -144,44 +144,32 @@ picture img {
     background-color: #FFFFFF;
 }
 
-@media only screen and (max-device-width: 480px) {
-    .NossosParceiros {
-        height: 320px;
-    }
-    .LogosParceiros {
-        height: 220px;
-    }
-    .LogosParceiros picture {
-        width: 280px;
-        height: 200px;
-    }
-}
-
-.Projeto {
+.projeto {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 86px;
-    color: #4B4B4B
+    color: #4B4B4B;
 }
 
-.FotosProjetos {
+.fotos-projetos {
     margin-right: 120px;
     margin-top: 20px;
+    width: 460px;
+    height: 297px;
 }
 
-.FotosProjetos img {
+.fotos-projetos img {
     width: 460px;
     height: 297px;
     margin-top: 18px;
 }
 
-.Projeto div {
+.descricao-projeto {
     width: 460px;
-    height: 297px;
 }
 
-.Iniciativas {
+.iniciativas {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -189,7 +177,7 @@ picture img {
     margin-right: 150px;
 }
 
-.ItemIniciativa {
+.item-iniciativa {
     color: #4B4B4B;
     width: 380px;
     text-align: center;
@@ -199,84 +187,143 @@ picture img {
     align-content: flex-start;
 }
 
-.Iniciativas p {
+.iniciativas p {
     text-align: justify;
 }
 
-.FotosIniciativas {
+.fotos-iniciativas {
     width: 300px;
-    height: 200px;
 }
 
-.FotosIniciativas img {
+.fotos-iniciativas img {
     min-width: 200px;
     max-width: 400px;
     height: 200px;
 }
 
-.FotosIniciativas :first-of-type img {
+.fotos-iniciativas :first-of-type img {
     padding-right: 80px;
     padding-left: 80px;
 }
 
-.ItemIniciativa picture {
+.item-iniciativa picture {
     background-color: #FFFFFF;
     width: 300px;
     height: 200px;
 }
 
-.SmallIcon {
+.small-icon {
     width: 33px;
     height: 33px;
 }
 
-.Icon {
+.icon {
     width: 70px;
     height: 70px;
 }
 
-.Fundadora {
+.fundadora {
     margin: auto;
     width: 70%;
 }
 
-.Fundadora img {
+.fundadora img {
     float: left;
     margin-right: 30px;
     border-radius: 50%;
 }
 
-.Premios {
+.premios {
     margin: auto;
     width: 70%;
     margin-top: 20px;
 }
 
-.Premios summary {
+.premios summary {
     color: #417BB5;
     font-weight: bold;
 }
 
-.Premios ul {
+.premios ul {
     list-style-type: none;
 }
 
-.InfosContato {
+.infos-contato {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 70px;
 }
 
-.InfosContato :first-child {
+.infos-contato :first-child {
     font-weight: bold;
 }
 
-.RedesSociais {
+.redes-sociais {
     margin: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 45%;
     margin-bottom: 60px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .nossos-parceiros {
+        height: 320px;
+    }
+    .logos-parceiros {
+        height: 220px;
+    }
+    .logos-parceiros picture {
+        width: 280px;
+        height: 200px;
+    }
+    .image-group img {
+        margin-bottom: 20px;
+    }
+    .item-iniciativa {
+        width: 100%;
+    }
+    .projeto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: flex-start;
+    }
+    .descricao-projeto {
+        width: 80% !important;
+    }
+    .descricao-projeto p {
+        font-size: 11.5px;
+        text-align: justify;
+    }
+    .fotos-projetos {
+        margin: auto;
+        width: 800px;
+        height: 500px;
+    }
+    .fotos-projetos img {
+        margin-top: 0;
+        width: 800px;
+        height: 500px;
+    }
+    .fundadora {
+        text-align: justify;
+    }
+    .fundadora img {
+        width: 300px;
+        height: 300px
+    }
+    .premios summary {
+        font-size: 34.3px;
+    }
+    .infos-contato span {
+        font-size: x-large;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
 }
