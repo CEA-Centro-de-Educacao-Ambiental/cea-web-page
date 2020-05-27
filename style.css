@@ -189,6 +189,8 @@ picture img {
 
 .iniciativas p {
     text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .fotos-iniciativas {
