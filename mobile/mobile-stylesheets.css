@@ -1,0 +1,59 @@
+@media only screen and (max-device-width: 480px) {
+    .nossos-parceiros {
+        height: 320px;
+    }
+    .logos-parceiros {
+        height: 220px;
+    }
+    .logos-parceiros picture {
+        width: 280px;
+        height: 200px;
+    }
+    .image-group img {
+        margin-bottom: 20px;
+    }
+    .item-iniciativa {
+        width: 100%;
+    }
+    .projeto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: flex-start;
+    }
+    .descricao-projeto {
+        width: 80% !important;
+    }
+    .descricao-projeto p {
+        font-size: 11.5px;
+        text-align: justify;
+    }
+    .fotos-projetos {
+        margin: auto;
+        width: 800px;
+        height: 500px;
+    }
+    .fotos-projetos img {
+        margin-top: 0;
+        width: 800px;
+        height: 500px;
+    }
+    .fundadora {
+        text-align: justify;
+    }
+    .fundadora img {
+        width: 300px;
+        height: 300px
+    }
+    .premios summary {
+        font-size: 34.3px;
+    }
+    .infos-contato span {
+        font-size: x-large;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+}
