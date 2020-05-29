@@ -191,7 +191,6 @@ picture img {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     align-content: flex-start;
 }
 
@@ -202,18 +201,23 @@ picture img {
 }
 
 .fotos-iniciativas {
+    margin-right: 120px;
+    margin-top: 20px;
     width: 400px;
+    height: 297px;
+    margin-bottom: 20px;
 }
 
 .fotos-iniciativas img {
-    min-width: 200px;
-    max-width: 400px;
-    height: 200px;
+    width: 460px;
+    height: 297px;
+    margin-top: 18px;
 }
 
-.fotos-iniciativas :first-of-type img {
-    padding-right: 80px;
-    padding-left: 80px;
+.logo-iniciativa {
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 300px !important;
 }
 
 .small-icon {

@@ -15,6 +15,33 @@
     .item-iniciativa {
         width: 100%;
     }
+    .fotos-iniciativas {
+        margin: auto;
+        width: 800px;
+        height: 500px;
+    }
+    .fotos-iniciativas img {
+        margin-top: 0;
+        width: 800px;
+        height: 500px;
+    }
+    .iniciativa {
+        width: 100%;
+    }
+    .iniciativas {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .item-iniciativa p {
+        font-size: 13.5px;
+        text-align: justify;
+    }
+    .logo-iniciativa {
+        width: 500px !important;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
     .projeto {
         width: 100%;
         display: flex;
@@ -26,7 +53,7 @@
         width: 80% !important;
     }
     .descricao-projeto p {
-        font-size: 11.5px;
+        font-size: 12.5px;
         text-align: justify;
     }
     .fotos-projetos {
