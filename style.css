@@ -3,6 +3,7 @@
     font-size: 16px;
     font-weight: 300;
     background: #F5F5F5;
+    color: #4B4B4B;
 }
 
 body {
@@ -110,6 +111,7 @@ header {
 .image-group img {
     width: 340px;
     height: 220px;
+    margin-bottom: 20px;
 }
 
 .nossos-parceiros {

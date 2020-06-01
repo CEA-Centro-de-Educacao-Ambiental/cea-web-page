@@ -1,4 +1,7 @@
 @media only screen and (max-device-width: 480px) {
+    * {
+        font-size: 12.5px;
+    }
     .nossos-parceiros {
         height: 320px;
     }
@@ -9,11 +12,21 @@
         width: 280px;
         height: 200px;
     }
-    .image-group img {
-        margin-bottom: 20px;
+    .iniciativas {
+        width: 100%;
+        margin: auto;
+        text-align: center;
     }
     .item-iniciativa {
-        width: 100%;
+        width: 90%;
+    }
+    .item-iniciativa p {
+        text-align: justify;
+    }
+    .logo-iniciativa {
+        width: 500px !important;
+        padding-left: 150px;
+        padding-right: 150px;
     }
     .fotos-iniciativas {
         margin: auto;
@@ -25,23 +38,6 @@
         width: 800px;
         height: 500px;
     }
-    .iniciativa {
-        width: 100%;
-    }
-    .iniciativas {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-    }
-    .item-iniciativa p {
-        font-size: 13.5px;
-        text-align: justify;
-    }
-    .logo-iniciativa {
-        width: 500px !important;
-        padding-left: 150px;
-        padding-right: 150px;
-    }
     .projeto {
         width: 100%;
         display: flex;
@@ -50,10 +46,9 @@
         align-content: flex-start;
     }
     .descricao-projeto {
-        width: 80% !important;
+        width: 90% !important;
     }
     .descricao-projeto p {
-        font-size: 12.5px;
         text-align: justify;
     }
     .fotos-projetos {
@@ -68,16 +63,23 @@
     }
     .fundadora {
         text-align: justify;
+        width: 90%;
     }
     .fundadora img {
         width: 300px;
         height: 300px
     }
-    .premios summary {
-        font-size: 34.3px;
+    .premios {
+        width: 90%;
+        font-size: 12.5px !important;
+    }
+    .infos-contato {
+        width: 100%;
+        text-align: center;
     }
     .infos-contato span {
-        font-size: x-large;
+        width: 90%;
+        font-size: 25px;
     }
     .icon {
         width: 100px;
