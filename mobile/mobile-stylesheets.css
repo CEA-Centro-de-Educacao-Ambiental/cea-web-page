@@ -11,7 +11,7 @@
         width: 80%;
     }
     .section-title {
-        font-size: 48px;
+        font-size: 50px;
     }
     .cover-img a {
         font-size: 20px;
@@ -58,7 +58,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        align-content: flex-start;
     }
     .descricao-projeto {
         width: 90% !important;
@@ -93,7 +92,7 @@
         text-align: center;
     }
     .infos-contato span {
-        width: 90%;
+        width: 65%;
     }
     .icon {
         width: 100px;
