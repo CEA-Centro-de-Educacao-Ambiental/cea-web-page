@@ -1,5 +1,12 @@
 language: generic
 deploy:
+  provider: netlify
+  site: <site>
+  auth: <encrypted auth>
+  edge: true
+  on:
+    branch: staging
+deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
