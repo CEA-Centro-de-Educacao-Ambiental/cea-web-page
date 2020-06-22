@@ -97,7 +97,12 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-    font-size: 18px;
+    font-size: 23px;
+}
+
+.conheca-text span {
+    color: #292929;
+	font-weight: 400;
 }
 
 .image-group {
