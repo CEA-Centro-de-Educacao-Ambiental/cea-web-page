@@ -16,3 +16,4 @@ Site estático de fácil manutenção.
 ## Documentação
 
 - [Como contribuir](CONTRIBUTING.MD)
+- [Editando pelo github](EDITAR_GITHUB.MD)
